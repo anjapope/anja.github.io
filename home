@@ -1,0 +1,86 @@
+<!doctype html>
+@media (max-width: 800px) { .hero { grid-template-columns: 1fr; } header nav { display: none; } }
+</style>
+</head>
+<body>
+<header class="wrap">
+<a href="/" class="mono" aria-label="Home">&lt;Andrew Pope/&gt;</a>
+<nav>
+<a href="#projects">Projects</a>
+<a href="#writing">Writing</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+
+<main class="wrap">
+<section class="hero">
+<div>
+<span class="badge">Hello! I'm Your Name</span>
+<h1>Researcher • Developer • Writer</h1>
+<p>Short bio in one or two sentences. What are you working on, and what do you care about? Mention a focus area or two.</p>
+<div>
+<a class="btn" href="#projects">See my work →</a>
+<a class="btn" href="mailto:you@example.com">Email me</a>
+</div>
+</div>
+<div>
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop" alt="Decorative hero image" />
+</div>
+</section>
+
+
+<section id="projects" class="section">
+<p class="kicker">Featured work</p>
+<h2>Projects</h2>
+<div class="grid">
+<article class="card">
+<h3>Project One</h3>
+<p>One-liner about what it is and what impact it has. <a href="#">View</a></p>
+</article>
+<article class="card">
+<h3>Project Two</h3>
+<p>What problem did it solve? What tech/skills were used? <a href="#">View</a></p>
+</article>
+<article class="card">
+<h3>Project Three</h3>
+<p>Any press, publications, or demos to link? <a href="#">View</a></p>
+</article>
+</div>
+</section>
+
+
+<section id="writing" class="section">
+<p class="kicker">Latest</p>
+<h2>Writing</h2>
+<div class="grid">
+<article class="card">
+<h3><a href="#">Post Title</a></h3>
+<p>1–2 sentence summary. (If you use Jekyll later, this can become a real blog.)</p>
+</article>
+<article class="card">
+<h3><a href="#">Another Post</a></h3>
+<p>What it covers and who might like it.</p>
+</article>
+</div>
+</section>
+
+
+<section id="contact" class="section">
+<p class="kicker">Say hi</p>
+<h2>Contact</h2>
+<p>Email: <a href="mailto:you@example.com">you@example.com</a> · LinkedIn · GitHub</p>
+</section>
+</main>
+
+
+<footer class="wrap footer">
+<span>© <span id="y"></span> Your Name. Built with GitHub Pages.</span>
+</footer>
+
+
+<script>
+document.getElementById('y').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
